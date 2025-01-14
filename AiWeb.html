@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Stylish Website</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom right, #0078d7, #00a1f1);
+            color: #333;
+        }
+
+        header {
+            background: rgba(0, 120, 215, 0.9);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #005a9e;
+            padding: 1rem 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 1.5rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffda44;
+        }
+
+        main {
+            padding: 3rem;
+            text-align: center;
+            background: white;
+            margin: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        main h2 {
+            color: #0078d7;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        main p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .channel-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .channel-links img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .channel-links img:hover {
+            transform: scale(1.1);
+        }
+
+        /* New Game Section */
+        .game-section {
+            background-color: #f7f7f7;
+            padding: 2rem;
+            margin-top: 3rem;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        .game-section h3 {
+            color: #0078d7;
+            font-size: 1.8rem;
+        }
+
+        .game-section p {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 1.5rem;
+        }
+
+        .game-section a {
+            display: inline-block;
+            background-color: #0078d7;
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .game-section a:hover {
+            background-color: #005a9e;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #ffda44;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Welcome to My AI Generated Website
+    </header>
+    <nav>
+        <a href="#">Home</a>
+    </nav>
+    <main>
+        <h2>About This Website</h2>
+        <p>This website is designed with AI. Im MystCraft and MystGamesPro on YouTube! Click on the profile pictures to go to my channels. Make sure to Subscribe.</p>
+
+        <div class="channel-links">
+            <img src="MystGamesProPFP.png" alt="https://www.youtube.com/@MystGamesPro">
+            <img src="MystCraftPFP.png" alt="https://www.youtube.com/@MystCraft-MC">
+        </div>
+
+        <!-- New Game Section -->
+        <div class="game-section" id="game">
+            <h3>Play My AI Generated Game</h3>
+            <p>Click the link below to download the Python code for the AI-generated games and run it locally to play the game:</p>
+            <p><strong>Instructions:</strong> 
+                <br>1. Download the Python files by clicking the link below.
+                <br>2. Ensure you have Python installed on your computer (Python 3.x is recommended).
+                <br>3. Run the Python files using your terminal or command prompt by navigating to the file's location and typing `python filename.py`.
+            </p>
+            <a href="AiGenGames.zip" download>Download Python Games</a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 My AI Website. All rights reserved. <a href="#">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
